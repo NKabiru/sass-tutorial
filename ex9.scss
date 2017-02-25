@@ -1,0 +1,7 @@
+// Exercise 9: Parent Selector
+button {
+  color: black;
+  &:focus {
+    color: red;
+  }
+}

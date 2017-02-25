@@ -1,0 +1,8 @@
+// Exercise 4: Mixins
+@mixin border-width($thickness) {
+  border-width: $thickness;
+}
+
+img {
+  @include border-width(10px);
+}
